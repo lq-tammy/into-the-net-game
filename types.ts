@@ -49,6 +49,7 @@ export interface City extends Point {
 export interface GameState {
   score: number;
   round: number;
+  level: number;
   isGameOver: boolean;
   isWin: boolean;
   isPaused: boolean;
@@ -61,9 +62,11 @@ export interface TranslationStrings {
   ammo: string;
   gameOver: string;
   win: string;
+  nextLevel: string;
   restart: string;
   language: string;
   round: string;
+  level: string;
   mission: string;
   instructions: string;
 }
